@@ -1,0 +1,221 @@
+/* Eric Meyer's reset CSS
+Source: Google */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* NAVIGATION BAR */
+.navbar {
+    display: flex;
+    border-bottom: 1px solid black;
+    background-color: black;
+}
+
+.navbar-1 {
+    flex: 1;
+}
+
+.navbar-2 {
+    flex: 3;
+}
+
+#logo-revou-navbar {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 95px;
+}
+
+.navbar-menu > li {
+    padding: 10px 40px 10px 40px;
+    border: 0.5px solid black;
+    list-style-type: none;
+    background-color: whitesmoke;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* CONTENT PROFILE */
+
+.content-1 {
+    flex: 1;
+    border-bottom: 5px solid black;
+    border-style: double;
+}
+
+#vampire-diaries {
+    margin-left: 290px;
+    height: 578px;
+    width: 1368px;
+}
+
+.content-2 {
+    display: flex;
+    border-bottom: 5px solid black;
+    border-style: double;
+}
+
+#our-hq {
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0px 0px 20px;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1  {
+    margin: 20px 0px 20px 70px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2  {
+    font: size 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#img-jkt {
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    margin: 80px 50px 30px 50px;
+}
+
+#img-bdg {
+   height: 250px;
+   width: 250px;
+   border-radius: 250px;
+   margin: 80px 50px 30px 50px;
+}
+
+#img-sby {
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    margin: 80px 50px 30px 50px;
+}
+
+
+/* Message Us */
+.msg-content {
+    display: flex;
+}
+
+.msg-form1  {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.msg-form2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+#input-name {
+    width: 350px;
+    margin: 10px 10px 5px 10px;
+}
+
+#input-date {
+    width: 353px;
+    margin: 17px 10px 5px 10px;
+}
+
+.tap-gender {
+    display: flex;
+    margin: 27px 10px 32px 10px;
+}
+
+#input-message {
+    width: 350px;
+    margin-left: 10px;
+}
+
+#button-submit {
+    width: 358px;
+    margin-top: 20px;
+    margin-left: 455px;
+}
+.msg-form {
+    display: flex;
+}
+
+.msg-form1 {
+    flex: 1;
+}
+
+.msg-form2 {
+    flex: 1;
+}
+
+#question-form > li {
+    padding: 10px 40px 10px 40px;
+    border: 0.5px solid black;
+    list-style-type: none;
+    background-color: whitesmoke;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    margin: 20px;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.label-name {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    background-color: black;
+    color: azure;
+    justify-content: right;
+}
+
